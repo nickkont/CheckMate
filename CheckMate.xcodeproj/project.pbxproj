@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04456C114EC521C862248E5B /* Pods_CheckMate_CheckMateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBA0B36B6DA5B0E4311DD54 /* Pods_CheckMate_CheckMateUITests.framework */; };
+		11A3A4358BB5D73B5C90A4ED /* Pods_CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA07B952F3D21E56EDB05BB /* Pods_CheckMate.framework */; };
+		D93CE656DAFE6F229E1201EB /* Pods_CheckMateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEE6A1C17391BCB9E0EF23F /* Pods_CheckMateTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10CCD3D2D5FB079009D2F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10CCD222D5FB077009D2F20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10CCD292D5FB077009D2F20;
+			remoteInfo = CheckMate;
+		};
+		A10CCD472D5FB079009D2F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10CCD222D5FB077009D2F20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10CCD292D5FB077009D2F20;
+			remoteInfo = CheckMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CA07B952F3D21E56EDB05BB /* Pods_CheckMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B8D55037C5383329126A6D /* Pods-CheckMateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckMateTests.debug.xcconfig"; path = "Target Support Files/Pods-CheckMateTests/Pods-CheckMateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EBA0B36B6DA5B0E4311DD54 /* Pods_CheckMate_CheckMateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckMate_CheckMateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		909458E84B1203E2CFC2B9EF /* Pods-CheckMate-CheckMateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckMate-CheckMateUITests.debug.xcconfig"; path = "Target Support Files/Pods-CheckMate-CheckMateUITests/Pods-CheckMate-CheckMateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A10CCD2A2D5FB077009D2F20 /* CheckMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10CCD3C2D5FB079009D2F20 /* CheckMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10CCD462D5FB079009D2F20 /* CheckMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEE6A1C17391BCB9E0EF23F /* Pods_CheckMateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckMateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE925D5C9723E3DDE6E79BBF /* Pods-CheckMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckMate.release.xcconfig"; path = "Target Support Files/Pods-CheckMate/Pods-CheckMate.release.xcconfig"; sourceTree = "<group>"; };
+		CFEE606AC1D1CB242A8DD097 /* Pods-CheckMateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckMateTests.release.xcconfig"; path = "Target Support Files/Pods-CheckMateTests/Pods-CheckMateTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1AFC41463CFB4D6A54C99AC /* Pods-CheckMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckMate.debug.xcconfig"; path = "Target Support Files/Pods-CheckMate/Pods-CheckMate.debug.xcconfig"; sourceTree = "<group>"; };
+		F73412642B594C3A46CB09C0 /* Pods-CheckMate-CheckMateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckMate-CheckMateUITests.release.xcconfig"; path = "Target Support Files/Pods-CheckMate-CheckMateUITests/Pods-CheckMate-CheckMateUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A1B24D772D6BC73900B13D56 /* Exceptions for "CheckMate" folder in "CheckMate" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A10CCD292D5FB077009D2F20 /* CheckMate */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A10CCD2C2D5FB077009D2F20 /* CheckMate */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A1B24D772D6BC73900B13D56 /* Exceptions for "CheckMate" folder in "CheckMate" target */,
+			);
+			path = CheckMate;
+			sourceTree = "<group>";
+		};
+		A10CCD3F2D5FB079009D2F20 /* CheckMateTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CheckMateTests;
+			sourceTree = "<group>";
+		};
+		A10CCD492D5FB079009D2F20 /* CheckMateUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CheckMateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10CCD272D5FB077009D2F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A3A4358BB5D73B5C90A4ED /* Pods_CheckMate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10CCD392D5FB079009D2F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93CE656DAFE6F229E1201EB /* Pods_CheckMateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10CCD432D5FB079009D2F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04456C114EC521C862248E5B /* Pods_CheckMate_CheckMateUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C72AE19380F96F30DC40041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CA07B952F3D21E56EDB05BB /* Pods_CheckMate.framework */,
+				8EBA0B36B6DA5B0E4311DD54 /* Pods_CheckMate_CheckMateUITests.framework */,
+				AEEE6A1C17391BCB9E0EF23F /* Pods_CheckMateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		934BEB284A1292BD8206BC4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1AFC41463CFB4D6A54C99AC /* Pods-CheckMate.debug.xcconfig */,
+				CE925D5C9723E3DDE6E79BBF /* Pods-CheckMate.release.xcconfig */,
+				909458E84B1203E2CFC2B9EF /* Pods-CheckMate-CheckMateUITests.debug.xcconfig */,
+				F73412642B594C3A46CB09C0 /* Pods-CheckMate-CheckMateUITests.release.xcconfig */,
+				29B8D55037C5383329126A6D /* Pods-CheckMateTests.debug.xcconfig */,
+				CFEE606AC1D1CB242A8DD097 /* Pods-CheckMateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A10CCD212D5FB077009D2F20 = {
+			isa = PBXGroup;
+			children = (
+				A10CCD2C2D5FB077009D2F20 /* CheckMate */,
+				A10CCD3F2D5FB079009D2F20 /* CheckMateTests */,
+				A10CCD492D5FB079009D2F20 /* CheckMateUITests */,
+				A10CCD2B2D5FB077009D2F20 /* Products */,
+				934BEB284A1292BD8206BC4F /* Pods */,
+				8C72AE19380F96F30DC40041 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A10CCD2B2D5FB077009D2F20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10CCD2A2D5FB077009D2F20 /* CheckMate.app */,
+				A10CCD3C2D5FB079009D2F20 /* CheckMateTests.xctest */,
+				A10CCD462D5FB079009D2F20 /* CheckMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10CCD292D5FB077009D2F20 /* CheckMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10CCD502D5FB079009D2F20 /* Build configuration list for PBXNativeTarget "CheckMate" */;
+			buildPhases = (
+				A0013807DBF625A89873F71B /* [CP] Check Pods Manifest.lock */,
+				A10CCD262D5FB077009D2F20 /* Sources */,
+				A10CCD272D5FB077009D2F20 /* Frameworks */,
+				A10CCD282D5FB077009D2F20 /* Resources */,
+				433DAD8E7719C46E354B940A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A10CCD2C2D5FB077009D2F20 /* CheckMate */,
+			);
+			name = CheckMate;
+			productName = CheckMate;
+			productReference = A10CCD2A2D5FB077009D2F20 /* CheckMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10CCD3B2D5FB079009D2F20 /* CheckMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10CCD532D5FB079009D2F20 /* Build configuration list for PBXNativeTarget "CheckMateTests" */;
+			buildPhases = (
+				438A20B31BBF9AEB4FFA5F54 /* [CP] Check Pods Manifest.lock */,
+				A10CCD382D5FB079009D2F20 /* Sources */,
+				A10CCD392D5FB079009D2F20 /* Frameworks */,
+				A10CCD3A2D5FB079009D2F20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10CCD3E2D5FB079009D2F20 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A10CCD3F2D5FB079009D2F20 /* CheckMateTests */,
+			);
+			name = CheckMateTests;
+			productName = CheckMateTests;
+			productReference = A10CCD3C2D5FB079009D2F20 /* CheckMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A10CCD452D5FB079009D2F20 /* CheckMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10CCD562D5FB079009D2F20 /* Build configuration list for PBXNativeTarget "CheckMateUITests" */;
+			buildPhases = (
+				AE31D5CF8E5CF7874EAE8D2D /* [CP] Check Pods Manifest.lock */,
+				A10CCD422D5FB079009D2F20 /* Sources */,
+				A10CCD432D5FB079009D2F20 /* Frameworks */,
+				A10CCD442D5FB079009D2F20 /* Resources */,
+				E09C25DFD9E7D64E11398FFB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10CCD482D5FB079009D2F20 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A10CCD492D5FB079009D2F20 /* CheckMateUITests */,
+			);
+			name = CheckMateUITests;
+			productName = CheckMateUITests;
+			productReference = A10CCD462D5FB079009D2F20 /* CheckMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10CCD222D5FB077009D2F20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A10CCD292D5FB077009D2F20 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A10CCD3B2D5FB079009D2F20 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A10CCD292D5FB077009D2F20;
+					};
+					A10CCD452D5FB079009D2F20 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A10CCD292D5FB077009D2F20;
+					};
+				};
+			};
+			buildConfigurationList = A10CCD252D5FB077009D2F20 /* Build configuration list for PBXProject "CheckMate" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10CCD212D5FB077009D2F20;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A1B24E272D6BCD4500B13D56 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A10CCD2B2D5FB077009D2F20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10CCD292D5FB077009D2F20 /* CheckMate */,
+				A10CCD3B2D5FB079009D2F20 /* CheckMateTests */,
+				A10CCD452D5FB079009D2F20 /* CheckMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10CCD282D5FB077009D2F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10CCD3A2D5FB079009D2F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10CCD442D5FB079009D2F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		433DAD8E7719C46E354B940A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckMate/Pods-CheckMate-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckMate/Pods-CheckMate-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CheckMate/Pods-CheckMate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		438A20B31BBF9AEB4FFA5F54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckMateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0013807DBF625A89873F71B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE31D5CF8E5CF7874EAE8D2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckMate-CheckMateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09C25DFD9E7D64E11398FFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckMate-CheckMateUITests/Pods-CheckMate-CheckMateUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckMate-CheckMateUITests/Pods-CheckMate-CheckMateUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CheckMate-CheckMateUITests/Pods-CheckMate-CheckMateUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10CCD262D5FB077009D2F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10CCD382D5FB079009D2F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10CCD422D5FB079009D2F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10CCD3E2D5FB079009D2F20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10CCD292D5FB077009D2F20 /* CheckMate */;
+			targetProxy = A10CCD3D2D5FB079009D2F20 /* PBXContainerItemProxy */;
+		};
+		A10CCD482D5FB079009D2F20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10CCD292D5FB077009D2F20 /* CheckMate */;
+			targetProxy = A10CCD472D5FB079009D2F20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A10CCD4E2D5FB079009D2F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10CCD4F2D5FB079009D2F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10CCD512D5FB079009D2F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1AFC41463CFB4D6A54C99AC /* Pods-CheckMate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckMate/Preview Content\"";
+				DEVELOPMENT_TEAM = F269AV64P8;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheckMate/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To take picture of receipts";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save images of their receipts with their total";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = NKLabs.CheckMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				se = "";
+			};
+			name = Debug;
+		};
+		A10CCD522D5FB079009D2F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE925D5C9723E3DDE6E79BBF /* Pods-CheckMate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckMate/Preview Content\"";
+				DEVELOPMENT_TEAM = F269AV64P8;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheckMate/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To take picture of receipts";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save images of their receipts with their total";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = NKLabs.CheckMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				se = "";
+			};
+			name = Release;
+		};
+		A10CCD542D5FB079009D2F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B8D55037C5383329126A6D /* Pods-CheckMateTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NKLabs.CheckMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckMate";
+			};
+			name = Debug;
+		};
+		A10CCD552D5FB079009D2F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEE606AC1D1CB242A8DD097 /* Pods-CheckMateTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NKLabs.CheckMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckMate";
+			};
+			name = Release;
+		};
+		A10CCD572D5FB079009D2F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909458E84B1203E2CFC2B9EF /* Pods-CheckMate-CheckMateUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NKLabs.CheckMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckMate;
+			};
+			name = Debug;
+		};
+		A10CCD582D5FB079009D2F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73412642B594C3A46CB09C0 /* Pods-CheckMate-CheckMateUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NKLabs.CheckMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10CCD252D5FB077009D2F20 /* Build configuration list for PBXProject "CheckMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10CCD4E2D5FB079009D2F20 /* Debug */,
+				A10CCD4F2D5FB079009D2F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10CCD502D5FB079009D2F20 /* Build configuration list for PBXNativeTarget "CheckMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10CCD512D5FB079009D2F20 /* Debug */,
+				A10CCD522D5FB079009D2F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10CCD532D5FB079009D2F20 /* Build configuration list for PBXNativeTarget "CheckMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10CCD542D5FB079009D2F20 /* Debug */,
+				A10CCD552D5FB079009D2F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10CCD562D5FB079009D2F20 /* Build configuration list for PBXNativeTarget "CheckMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10CCD572D5FB079009D2F20 /* Debug */,
+				A10CCD582D5FB079009D2F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1B24E272D6BCD4500B13D56 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = A10CCD222D5FB077009D2F20 /* Project object */;
+}
